@@ -12,7 +12,7 @@ AWS.config.update({
     secretAccessKey: config.AWSSecretAccessKey
 });
 
-const TableName = 'geniet.bmi.standard';
+const TableName = 'TableName';
 
 const docClient = new AWS.DynamoDB.DocumentClient();
 
