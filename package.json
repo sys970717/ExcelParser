@@ -1,0 +1,18 @@
+{
+  "name": "excelParser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.662.0",
+    "excel": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "xlsx": "^0.15.6"
+  },
+  "repository": "https://github.com/sys970717/ExcelParser.git",
+  "author": "Seoyeongsu <sys970717@naver.com>"
+}
